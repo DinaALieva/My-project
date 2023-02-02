@@ -1,0 +1,31 @@
+.foot-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+font-size: 16px;
+font-family: 'Heebo' sans-serif;
+color: #fff;
+}
+.foot-logo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items:center;
+}
+.footer{
+    background-color: #030921;
+    padding: 10px 0 20px 0;
+}
+.foot-logo .fa-brands{
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.06);
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2? family= Heebo:wght@100;200;300;400;500;600;700;800;900 & family= Ubuntu:ital, wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700 & display=swap');
+@import url('vendor/reset.css');
+@import url('vendor/same.css');
+@import url('companents/header.css');
+@import url('companents/home.css');
+@import url('companents/about.css');
+@import url('companents/services.css');
+@import url('companents/portfolio.css');
+@import url('companents/experts.css');
+@import url('companents/pricing.css');
+@import url('companents/customers.css');
+@import url('companents/news.css');
+@import url('companents/contacts.css');
+@import url('companents/footer.css');

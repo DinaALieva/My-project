@@ -1,0 +1,26 @@
+.section-padding{
+   padding: 80px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    /* padding: 0 55px; */
+   margin-top: 25px;
+   
+
+}
+.services{
+    background-color: #f7fcff;
+}
+.portfolio{
+    background-color: #f7fcff;
+}
+.ask_wrapper{
+    background-color: #f7fcff;
+}
+.body{
+    font-family: 'Heebo' sans-serif;
+}
+.customers{
+    background-color: #f7fcff;
+}

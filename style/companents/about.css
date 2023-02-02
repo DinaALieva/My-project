@@ -1,0 +1,112 @@
+.about-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.about-left{
+    width: 45%;
+    position: relative;
+    padding: 0 20px;
+    
+}
+.about-right{
+    width: 45%;
+}
+.about-left img{
+    margin-top: 20px;
+    width: 100%;
+}
+.img-wrapper::before{
+    content: '';
+position: absolute;
+top: 0;
+left: 0;
+border-top: 200px solid #0c5adb;
+border-right: 250px solid transparent;
+z-index: -1;
+box-sizing: border-box;
+}
+
+.img-wrapper::after{
+     position: absolute;
+    content: '';
+    bottom: 0px;
+    right: 0;
+    border-bottom: 200px solid #0c5adb;
+    border-left: 250px solid transparent;
+    z-index: -1;   
+    box-sizing: border-box; 
+}
+.about-right a{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'Heebo', sans-serif;
+    margin: 0 0 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0c5adb;
+}
+.about-right h2{
+    font-family: 'Heebo', sans-serif;
+    margin-top: 10px;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: bold;
+    color: #0b1a39;
+}
+.about-right p{
+    font-size: 18px;
+    font-family: 'Heebo' sans-serif;
+    line-height: 29px;
+    color: #0b1a39;
+    margin: 20px 0;
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+   padding: 13px 0;
+}
+.counter-item{
+    display: inline-block;
+    width: 47%;
+    
+}
+.counter-item span{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Heebo' sans-serif;
+    color: #0c5adb;
+    font-weight: bolder;
+    
+}
+.counter-item h4{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#0b1a39;
+}
+.counter-item p{
+    font-size: 18px;
+    font-family: 'Heebo' sans-serif;
+    color:#0b1a39;
+}
+@media(max-width:990px){
+    .about-inner{
+    flex-wrap: wrap;
+    
+}
+.about-left{
+    width: 70%;
+    margin:0 auto;
+    /* height: 250px; */
+}
+.about-right{
+    width: 70%;
+    margin:30px auto;
+}
+.img-wrapper::after{
+    bottom: -20px;
+    right: 0;
+}
+}
